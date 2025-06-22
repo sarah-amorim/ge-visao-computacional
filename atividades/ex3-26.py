@@ -14,8 +14,8 @@ def plotar_histograma(img, titulo = 'Histograma'):
 
 # The two images shown in the following figure are quite different, but their histograms are the same. Suppose that each image is blurred using a 3x3 box kernel.
 
-img_chess = cv.imread('chessboard.jpg', cv.IMREAD_GRAYSCALE)
-img_blackwhite = cv.imread('blackwhite.jpeg', cv.IMREAD_GRAYSCALE)
+img_chess = cv.imread('imagens/chessboard.jpg', cv.IMREAD_GRAYSCALE)
+img_blackwhite = cv.imread('imagens/blackwhite.jpeg', cv.IMREAD_GRAYSCALE)
 #plotar_histograma(img_chess, 'Chessboard image before blur')
 #plotar_histograma(img_blackwhite, 'Black and white image before blur')
 
